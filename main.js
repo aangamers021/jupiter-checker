@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // Menampilkan pesan khusus jika wallet tidak memenuhi syarat
             const resultElement = document.getElementById('result');
-            if (error.message.includes("Your specific error message here")) {
+            if (error.message.includes("Error fetching data.")) {
                 resultElement.innerHTML = "Your Wallet Not Eligible";
             } else {
                 resultElement.innerHTML = "Error fetching data.";
