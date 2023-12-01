@@ -15,9 +15,9 @@ document.addEventListener('DOMContentLoaded', function () {
             // Menampilkan hasil di dalam elemen dengan id 'result'
             const resultElement = document.getElementById('result');
             resultElement.innerHTML = `
-                <p>Owner: ${owner}</p>
+                <p>Wallet Address: ${owner}</p>
                 <p>Tokens Final: ${tokensFinal}</p>
-                <p>Volume: ${volume}</p>
+                <p>Volume TX: ${volume}</p>
                 <p>Rank: ${rank}</p>
             `;
         } catch (error) {
